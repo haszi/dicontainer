@@ -1,0 +1,27 @@
+parameters:
+    phpVersion: 80000
+    level: 9
+    paths:
+        - src
+
+    ignoreErrors:
+        - '#Parameter \#[0-9] [a-zA-Z0-9\\_]+ of class ReflectionClass constructor expects class-string<T of object>|T of object, string given.#'
+
+    polluteScopeWithLoopInitialAssignments: false
+    polluteScopeWithAlwaysIterableForeach: false
+    checkAlwaysTrueCheckTypeFunctionCall: true
+    checkAlwaysTrueInstanceof: true
+    checkAlwaysTrueStrictComparison: true
+    checkExplicitMixedMissingReturn: true
+    checkFunctionNameCase: true
+    checkInternalClassCaseSensitivity: true
+    reportMaybesInMethodSignatures: true
+    reportMaybesInPropertyPhpDocTypes: true
+    reportStaticMethodSignatures: true
+    checkTooWideReturnTypesInProtectedAndPublicMethods: true
+    checkUninitializedProperties: true
+    checkDynamicProperties: true
+    checkImplicitMixed: true
+    checkBenevolentUnionTypes: true
+    reportAlwaysTrueInLastCondition: true
+    reportWrongPhpDocTypeInVarTag: true

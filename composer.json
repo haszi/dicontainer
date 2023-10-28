@@ -1,0 +1,20 @@
+{
+    "autoload": {
+        "psr-4": {
+          "haszi\\": "src/"
+        }
+    },
+      "autoload-dev": {
+        "psr-4": {
+            "haszi\\DI\\Test\\UnitTest\\": "tests/Unit/"
+        }
+    },
+    "require": {
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "phpstan/phpstan": "^1.10",
+        "vimeo/psalm": "^5.15"
+    }
+}

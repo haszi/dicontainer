@@ -1,6 +1,7 @@
 {
     "name": "haszi/dicontainer",
     "description": "A learning exercise of a PSR-11 compatible dependency injection container",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
           "haszi\\": "src/"

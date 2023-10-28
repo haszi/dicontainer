@@ -1,4 +1,6 @@
 {
+    "name": "haszi/dicontainer",
+    "description": "A learning exercise of a PSR-11 compatible dependency injection container",
     "autoload": {
         "psr-4": {
           "haszi\\": "src/"
@@ -10,6 +12,7 @@
         }
     },
     "require": {
+        "php": ">=8.0",
         "psr/container": "^2.0"
     },
     "require-dev": {

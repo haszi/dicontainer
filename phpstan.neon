@@ -23,5 +23,3 @@ parameters:
     checkDynamicProperties: true
     checkImplicitMixed: true
     checkBenevolentUnionTypes: true
-    reportAlwaysTrueInLastCondition: true
-    reportWrongPhpDocTypeInVarTag: true
